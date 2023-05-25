@@ -28,7 +28,25 @@ main.container {
     position: relative;
 }
 
+.inputBox [type=text], [type=email], [type=password], [type=date], [type=tel] {
+    outline: 0;
+    border:1px solid rgb(199, 195, 195);
+    margin-left: 10px;
+    width:72%;
+    align-items: end;
+}
 
+.inputBox [type=date] {
+    width: 35%;
+}
+
+.inputBox [type=tel] {
+    width: 65%;
+}
+
+.terms {
+    color:#78212c;
+}
 
 #submit {
     background-image: linear-gradient(to right, #414040, #7a7778);
