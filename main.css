@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #45151f, #78212c);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+    background-color: white;
+    max-width: 350px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px #45151f42;
+    border-radius: 8px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputBox [type=text], [type=email], [type=password], [type=date], [type=tel] {
+    outline: 0;
+    border:1px solid rgb(199, 195, 195);
+    margin-left: 10px;
+    width:72%;
+    align-items: end;
+}
+
+.inputBox [type=date] {
+    width: 35%;
+}
+
+.inputBox [type=tel] {
+    width: 65%;
+}
+
+.terms {
+    color:#78212c;
+}
+
+#submit {
+    background-image: linear-gradient(to right, #414040, #7a7778);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+        
+#submit:hover{
+    background-image: linear-gradient(to right, #45151f, #78212c);
+}
+
+main h1 {
+    color: #78212c;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
