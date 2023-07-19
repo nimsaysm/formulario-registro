@@ -1,11 +1,12 @@
 <p align="center">
-    <img src=".github/preview.PNG" alt="Demonstração do projeto" width="100%" />
+    <img src=".github/preview.png" alt="Demonstração do projeto" width="100%" />
 </p>
 
 ## 💻 Projeto
-Esse é um projeto de formulário de um usuário.
+Esse é um projeto Web de um formulário que armazena os cadastros feitos em um campo no final da seção.
 
 ## 🚀 Tecnologias
-Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
+Esse projeto foi desenvolvido utilizando:
 - HTML
 - CSS
+- JavaScript básico

@@ -26,61 +26,67 @@
 
 <body>
     <main class="container">
-    
-        <h1> Formulário </h1>
+        <form class="form" action="" method="get">
+            <h1> Formulário </h1>
 
-        <div class="inputBox">
-            <label for="name"> 
-                Nome: 
-            </label>
-            <input type="text" name="name" placeholder="Nome completo" />
-        </div>    
-            <br/> 
+            <div class="inputBox">
+                <label for="name"> 
+                    Nome: 
+                </label>
+                <input class="name" type="text" name="name" placeholder="Nome completo" required/>
+            </div>    
+                <br/> 
 
-        <div class="inputBox">
-            <label for="email"> 
-                E-mail: 
-            </label>
-            <input type="email" name="email" placeholder="E-mail" />
-        </div>
-            <br/> 
+            <div class="inputBox">
+                <label for="email"> 
+                    E-mail: 
+                </label>
+                <input class="email" type="email" name="email" placeholder="E-mail" required/>
+            </div>
+                <br/> 
 
-        <div class="inputBox">
-            <label for="password"> 
-                Senha: 
-            </label>
-            <input type="password" name="password" placeholder="Senha" />
-        </div>
-            <br/> 
+            <div class="inputBox">
+                <label for="password"> 
+                    Senha: 
+                </label>
+                <input class="password" type="password" name="password" placeholder="Senha" required/>
+            </div>
+                <br/> 
 
-        <div class="inputBox">
-            <label for="birthday"> 
-                Data de nascimento: 
-            </label>
-            <input type="date" name="birthday">
-        </div>
-            <br/> 
-        
-        <div class="inputBox">
-            <label for="tel"> 
-                Telefone:
-             </label>
-            <input type="tel" name="tel" placeholder="Telefone" />
-        </div>
-            <br/> 
-        
-        <div class="inputBox">
-            <label>
-                <input type="checkbox" />
-                Eu declaro que li os <a href="paginas/termos.html" target="_blank" class="terms"> termos de uso</a>.
-            </label>
-        </div>
-            <br/> 
+            <div class="inputBox">
+                <label for="birthday"> 
+                    Data de nascimento: 
+                </label>
+                <input class="birthday" type="date" name="birthday" required>
+            </div>
+                <br/> 
             
-            <input type="submit" value="Cadastrar" id="submit">
+            <div class="inputBox">
+                <label for="tel"> 
+                    Telefone:
+                </label>
+                <input class="phone" type="tel" name="tel" placeholder="Telefone" required/>
+            </div>
+                <br/> 
+            
+            <div class="inputBox">
+                <label>
+                    <input id="checkbox" type="checkbox" required/>
+                    Eu declaro que li os <a href="paginas/termos.html" target="_blank" class="terms"> termos de uso</a>.
+                </label>
+            </div>
+                <br/> 
+                
+                <button>Cadastrar</button>
+                <input type="reset" value="Limpar campos" id="reset">
+        </form>
 
-
+        <section id="cadastros">
+            <h1 class="cadastros"> Cadastros </h1>
+            <div class="resultado"></div>
+        </section>
+        
     </main>
-
+    <script src="script.js"></script>
 </body>
 </html>
